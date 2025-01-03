@@ -1,5 +1,5 @@
 <template>
-    <header>
+    <header class="flex gap-1 text-red-800">
         <h4>Навигация:</h4>
         <nav>
             <div v-if="$route.path==='/'">
@@ -11,3 +11,4 @@
          </nav>
     </header>
 </template>
+ 
